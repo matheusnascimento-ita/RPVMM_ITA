@@ -15,6 +15,12 @@ O modelo baseia-se em três pilares principais:
 2.  **PCA (Principal Component Analysis):** Redução de dimensionalidade para tratar a correlação entre diferentes segmentos de prospecção e fidelização.
 3.  **LSTM (Long Short-Term Memory):** Redes neurais recorrentes capazes de capturar dependências temporais de longo prazo e a sazonalidade do ciclo escolar.
 
+## Arquitetura do Modelo
+O modelo final utiliza uma arquitetura Encoder-Decoder para previsões multi-passo:
+
+1. **Input:** Janela temporal (Lookback) processada via PCA.
+2. **Processamento:** Camadas LSTM para capturar sazonalidade e tendência.
+3. **Output:** Previsão da tiragem para os próximos meses de 2025.
 
 ## Estrutura do Repositório
 
@@ -33,9 +39,6 @@ O modelo baseia-se em três pilares principais:
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/matheusnascimento-ita/RPVMM_ITA.git](https://github.com/matheusnascimento-ita/RPVMM_ITA.git)
-
-
-
 
 Principais Resultados
 O modelo integrado apresentou ganhos consistentes de acurácia em comparação com métodos tradicionais de média móvel e regressão linear simples, reduzindo significativamente o erro percentual médio (MAPE) nas coleções de maior volume.
