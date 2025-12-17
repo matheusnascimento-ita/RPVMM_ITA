@@ -24,7 +24,6 @@ O modelo final utiliza uma arquitetura Encoder-Decoder para previsões multi-pas
 
 ## Estrutura do Repositório
 
-* `exploratory_analysis.ipynb`: Notebook com a análise exploratória dos dados (EDA), matrizes de correlação e visualização de lacunas temporais.
 * `Modelo LSTM Base.py`: Implementação inicial da rede LSTM para séries temporais univariadas.
 * `Modelo LSTM com PCA.py`: Evolução do modelo integrando componentes principais como variáveis exógenas.
 * `Modelo LSTM Multi-step com PCA e LOESS.py`: O modelo final e mais robusto, realizando previsões de múltiplos passos à frente com dados suavizados.
