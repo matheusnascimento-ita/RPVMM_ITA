@@ -1,9 +1,40 @@
+###############################################################################
+# Projeto RPVMM_ITA - Estimativa de Tiragem Poliedro
+###############################################################################
+
+# Core Data Science
 pandas
 numpy
+openpyxl
+
+# Modelagem Estatística e ML
+scikit-learn
+statsmodels
+scipy
+
+# Deep Learning
+tensorflow
+
+# Plotting
 matplotlib
 seaborn
-scikit-learn
-tensorflow
-statsmodels
+
+# Manipulação de Dados
+pandas>=2.0.0
+numpy>=1.23.0
 openpyxl
+
+# Visualização
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Machine Learning & Estatística
+scikit-learn>=1.0.0
+statsmodels>=0.13.0
+scipy>=1.7.0
+
+# Deep Learning
+tensorflow>=2.10.0
+
+# Jupyter Notebook
 ipykernel
